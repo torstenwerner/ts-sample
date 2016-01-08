@@ -3,7 +3,11 @@ module.exports = function (grunt) {
         ts: {
             default: {
                 src: ["src/main/ts/**/*.ts"],
-                dest: 'build/app.js'
+                //dest: 'build/app.js',
+                options: {
+                    module: "commonjs",
+                    moduleResolution: "node"
+                }
             }
         }
     });
