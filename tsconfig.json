@@ -2,6 +2,11 @@
     "compilerOptions": {
         "target": "es5",
         "module": "amd",
-        "sourceMap": true
-    }
+        "sourceMap": true,
+        "outFile": "build/app.js"
+    },
+    "files": [
+        "typings/tsd.d.ts",
+        "src/main/ts/hello.ts"
+    ]
 }

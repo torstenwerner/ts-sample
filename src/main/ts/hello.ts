@@ -1,3 +1,3 @@
 import * as _ from 'lodash';
 
-console.log("Hello");
+alert("Hello: " + _.now());
